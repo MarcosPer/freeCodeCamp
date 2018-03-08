@@ -1,4 +1,7 @@
 'use strict';
+
+console.log("FreeCodeCamp TimeStampMicroService");
+
 var express = require('express');
 var app = express();
 var moment = require('moment');
