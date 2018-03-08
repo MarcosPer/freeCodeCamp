@@ -23,7 +23,7 @@ app.get('/:input', (req, res) => {
   }
 });
 app.get('/', (req,res) => {
-  res.send("Please, add time");
+  res.send("Please, add time to end of url");
 });
 
 app.listen(process.env.PORT);
