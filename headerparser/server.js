@@ -1,2 +1,2 @@
 console.log("FreeCodeCamp HeaderParser");
-var a;
+console.log("Starting ExpressJS");
