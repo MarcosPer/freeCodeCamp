@@ -1,5 +1,5 @@
 {
-    "name": "TimeStamp Microservice",
+    "name": "timestampmicroservice",
     "version": "0.0.1",
     "description": "FreeCodeCamp project",
     "main": "server.js",
