@@ -5,7 +5,7 @@ You can found most of these live projects on my [Glitch Profile](https://glitch.
 
 - [x] Timestamp Microservice 
 - [x] Request Header Microservice  
-- [ ] URL Shortener Microservice  
+- [x] URL Shortener Microservice  
 - [ ] Image Search Microservice  
 - [x] File metadata Microservice  
 - [ ] Voting App 
