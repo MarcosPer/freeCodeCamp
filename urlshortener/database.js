@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-var username = "publicuser" ;
-var password ="publicpassword";
+var username = process.env.MONGOUSER;
+var password = process.env.MONGOPASSWORD;
 var host = "ds261078.mlab.com";
 var port = 61078;
 var db = "freecodecamp";
