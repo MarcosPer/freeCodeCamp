@@ -3,11 +3,9 @@ const Schema = mongoose.Schema;
 
 const config = require("../config.json");
 
-exports.pages = mongoose.model("urlshortener_pages",Schema({
-   // _id: { type: mongoose.Schema.Types.ObjectId, auto: true , select : false, unique: true},
-    page_id : { type: String, default : require('shortid').generate() , unique: true},
-    url : { type:String },
-    created : { type: Date , default: Date.now() }
+exports.history = mongoose.model("imagesearch_history",Schema({
+    term : { type:String },
+    date : { type: Date , default: Date.now() }
 }));
 
 exports.connect = () => {
